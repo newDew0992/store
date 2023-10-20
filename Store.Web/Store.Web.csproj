@@ -5,4 +5,9 @@
         <LangVersion>11</LangVersion>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\domain\Store\Store.csproj" />
+      <ProjectReference Include="..\Store.Memory\Store.Memory.csproj" />
+    </ItemGroup>
+
 </Project>
