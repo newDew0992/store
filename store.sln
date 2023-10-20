@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{7B72DE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "domain\Store\Store.csproj", "{79E8725C-2B4A-4CEB-8196-708B031A5381}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{82B8F2A3-79B1-44F0-B6BC-4FC29F3A7FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Memory", "Store.Memory\Store.Memory.csproj", "{9991AC03-A986-403A-BB6D-5F5338F4B811}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{79E8725C-2B4A-4CEB-8196-708B031A5381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79E8725C-2B4A-4CEB-8196-708B031A5381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79E8725C-2B4A-4CEB-8196-708B031A5381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9991AC03-A986-403A-BB6D-5F5338F4B811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9991AC03-A986-403A-BB6D-5F5338F4B811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9991AC03-A986-403A-BB6D-5F5338F4B811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9991AC03-A986-403A-BB6D-5F5338F4B811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79E8725C-2B4A-4CEB-8196-708B031A5381} = {7B72DE52-F5A8-4B61-BFB7-D7D655C6CF79}
+		{9991AC03-A986-403A-BB6D-5F5338F4B811} = {82B8F2A3-79B1-44F0-B6BC-4FC29F3A7FE3}
 	EndGlobalSection
 EndGlobal
